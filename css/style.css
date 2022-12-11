@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    text-align: center;
+    margin: 100px auto auto auto;
+}
+.btn {
+    padding: 15px 0;
+    width: 250px;
+    height: auto;
+    background: -webkit-linear-gradient(left, rgb(229, 229, 95), rgb(33, 59, 209), red);
+    opacity: 0.9;
+    color: #fff;
+    border: none;
+    transition: opacity 0.5s;
+    margin-bottom: 20px;
+    border-radius: 50% 0 0 50%;
+    cursor: pointer;
+}
+.btn:hover {
+    opacity: 1;
+}
+/* .mydiv {
+    width: 400px;
+    height: 250px;
+    background: -webkit-linear-gradient(top, yellow, green);
+    margin: auto;
+
+} */
+
+body {
+    background: #333;
+}
